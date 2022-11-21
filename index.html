@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game App</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="#" class="titleHeader">Video Game Searcher</a>
+      <a href="#" id="aboutBtn">About</a>
+      <div class="search-container">
+        <form role="search" id="form">
+          <input type="search" name="q" id="query" placeholder="Search..." />
+        </form>
+      </div>
+    </div>
+    <div>
+      <section id="section">
+        <!-- A default card -->
+        <!-- <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="fish.jpg" alt="" class="thumbnail" />
+              <h3>Game Title</h3>
+              <a class="more-info" href="#">More Info</a>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="message">
+          <h3 class="text-message">
+            No Games! <em>(Maybe you misspelled?)</em>
+          </h3>
+        </div> -->
+      </section>
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>About this Website</h1>
+        <p>
+          Hi, this website was made using GiantBomb's API to pull data from
+          their game database! I do not make any money from this website, it is
+          merely for educational purposes and non-commercial use.
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
