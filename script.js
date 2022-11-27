@@ -1,11 +1,11 @@
 const APILINK =
-  "http://www.giantbomb.com/api/games/?api_key=dde1f15f713d0e05792b5bd9abea4acf0d8a6e2b&format=json&resources=game&limit=10&sort=field:desc";
+  "https://www.giantbomb.com/api/games/?api_key=dde1f15f713d0e05792b5bd9abea4acf0d8a6e2b&format=json&resources=game&limit=10&sort=field:desc";
 
 const IMG_PATH =
-  "http://www.giantbomb.com/api/games/?api_key=dde1f15f713d0e05792b5bd9abea4acf0d8a6e2b&format=json&field_list=image";
+  "https://www.giantbomb.com/api/games/?api_key=dde1f15f713d0e05792b5bd9abea4acf0d8a6e2b&format=json&field_list=image";
 
 const SEARCHAPI =
-  "http://www.giantbomb.com/api/search/?api_key=dde1f15f713d0e05792b5bd9abea4acf0d8a6e2b&format=json&resources=game&query=";
+  "https://www.giantbomb.com/api/search/?api_key=dde1f15f713d0e05792b5bd9abea4acf0d8a6e2b&format=json&resources=game&query=";
 
 const main = document.getElementById("section");
 const form = document.getElementById("form");
